@@ -13,7 +13,11 @@ Use “git pull” command to extract the latest file or changes file
 Git push:
 Note you cannot directly commit your physical files to the local git repository.
 So, when you are about to push the file from your machine to the repository. First of all you have to add the chosen physical files to the staging area and then you send it to local git. after that finally push the file to the git hub repository.
-How to push the file to staging area?
-Git add “file name”
+How to push the physical file to staging area?
+	Git add “file name”
+How to commit the file to local git repository?
+	git commit -m "test"
+	How to push the file to main git hub repository?
+	git push origin master
 
 
